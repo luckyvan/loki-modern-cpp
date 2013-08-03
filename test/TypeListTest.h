@@ -8,7 +8,8 @@
 class TypeListTest : public CPPUNIT_NS::TestFixture
 {
     CPPUNIT_TEST_SUITE( TypeListTest );
-    CPPUNIT_TEST(testSList);
+    CPPUNIT_TEST(testBasicOp);
+    CPPUNIT_TEST(testDerivation);
     //CPPUNIT_TEST_EXCEPTION(test_$exception_func, exception);
     CPPUNIT_TEST_SUITE_END();
 
@@ -16,7 +17,8 @@ public:
    void setUp();
    void tearDown();
 
-   void testSList();
+   void testBasicOp();
+   void testDerivation();
    //void test_$exception_func();
 };
 #endif
